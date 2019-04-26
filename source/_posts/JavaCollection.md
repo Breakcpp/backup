@@ -15,7 +15,7 @@ Set |	AbstractSet |	否 |	否
 　　 |	HashSet |	否 |	否 
 　　|	TreeSet |	是（用二叉排序树）|	否
 Map | AbstractMap |	否 |	使用key-value来映射和存储数据，key必须唯一，value可以重复
-　　|	HashMap	|	否 |
+　　|	HashMap	|	否 | 键不可以重复,值可以（泛型情况可以键值重复）
 　　|	TreeMap |	是（用二叉排序树）|	使用key-value来映射和存储数据，key必须唯一，value可以重复
 
 # List（有序、可重复）
